@@ -1,0 +1,160 @@
+.registration-container {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 800px;
+    padding: 40px;
+    margin: 20px;
+}
+
+.registration-header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.main-title {
+    color: #667eea;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.edu-portal {
+    margin-bottom: 15px;
+}
+
+.portal-title {
+    color: #2d3748;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.portal-subtitle {
+    color: #718096;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 15px;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stat-number {
+    font-size: 18px;
+    font-weight: 700;
+    color: #667eea;
+}
+
+.stat-label {
+    font-size: 12px;
+    color: #a0aec0;
+    margin-top: 2px;
+}
+
+.step-content {
+    margin: 30px 0;
+}
+
+.form-navigation {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 2px solid #f0f0f0;
+}
+
+.btn {
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+.btn-primary:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+}
+
+.btn-primary:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.btn-secondary {
+    background: #e2e8f0;
+    color: #4a5568;
+}
+
+.btn-secondary:hover {
+    background: #cbd5e0;
+}
+
+.step-placeholder {
+    text-align: center;
+    padding: 40px 0;
+    color: #4a5568;
+}
+
+.step-placeholder h2 {
+    color: #2d3748;
+    margin-bottom: 10px;
+}
+
+.submission-status {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.submission-status.success {
+    background: #c6f6d5;
+    color: #22543d;
+}
+
+.submission-status.error {
+    background: #fed7d7;
+    color: #742a2a;
+}
+
+@media (max-width: 768px) {
+    .registration-container {
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .stats-container {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .form-navigation {
+        flex-direction: column;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
