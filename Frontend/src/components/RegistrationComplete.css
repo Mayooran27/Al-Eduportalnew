@@ -1,0 +1,65 @@
+.registration-complete {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.success-icon {
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+.registration-complete h2 {
+    color: #2d3748;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.registration-complete p {
+    color: #718096;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.confirmation-details {
+    background: #f7fafc;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 20px 0;
+}
+
+.confirmation-details p {
+    color: #4a5568;
+    margin-bottom: 4px;
+}
+
+.next-steps {
+    text-align: left;
+    background: #ebf8ff;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.next-steps h4 {
+    color: #2b6cb0;
+    margin-bottom: 10px;
+}
+
+.next-steps ul {
+    list-style: none;
+    padding: 0;
+}
+
+.next-steps li {
+    padding: 6px 0;
+    color: #2c5282;
+    position: relative;
+    padding-left: 24px;
+}
+
+.next-steps li::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: #4299e1;
+}
